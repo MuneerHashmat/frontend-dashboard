@@ -1,10 +1,4 @@
-const teamMembers = [
-  { name: "Andrea", role: "UX Junior", mood: "😊" },
-  { name: "Alvaro", role: "Back-end Developer", mood: "😎" },
-  { name: "Juan", role: "UX Senior", mood: "🙂" },
-  { name: "Jose", role: "Marketing", mood: "😀" },
-  { name: "Maria", role: "UX Junior", mood: "😊" },
-];
+import { teamMembers } from "../utils/constants";
 
 const TeamMoodCard = () => {
   return (

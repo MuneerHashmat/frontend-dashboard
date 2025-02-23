@@ -15,7 +15,7 @@ const DoughnutChart = () => {
     chartArea: { width: "80%", height: "70%" },
     backgroundColor: "white",
     legend: { position: "bottom" },
-    colors: ["#2ecc71", "#3498db", "#e74c3c"],
+    colors: ["#e74c3c", "#3498db", "#2ecc71"],
   };
   
 

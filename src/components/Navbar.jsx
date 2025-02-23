@@ -2,6 +2,7 @@ import { AccountCircle, KeyboardArrowDown, NotificationsOutlined} from "@mui/ico
 import { navLinks } from "../utils/constants";
 
 const Navbar = () => {
+
  
   return (
     <nav className="fixed top-0 w-screen flex justify-between items-center px-10 py-5 bg-blue-950 text-white z-50">
@@ -9,7 +10,7 @@ const Navbar = () => {
         {" "}
         <span className="text-green-300">H</span>OURS
       </h1>
-      <div className="flex gap-4 items-center">
+      <div className="md:flex gap-4 items-center hidden">
         {navLinks.map((item) => (
           <p
             key={item}
