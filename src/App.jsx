@@ -1,4 +1,3 @@
-import BudgetStatus from "./components/BudgetStatus";
 import DoughnutChart from "./components/DoughnutChart";
 import LineChart from "./components/LineChart";
 import Navbar from "./components/Navbar";
@@ -20,7 +19,6 @@ function App() {
           <LineChart />
           <DoughnutChart />
         </div>
-        <BudgetStatus />
       </div>
     </>
   );
